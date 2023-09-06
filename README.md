@@ -38,6 +38,9 @@ First make sure that the video.json has the following structure:
 ````
 
 Then have the theme (name of the main folder), name of the video (file name) and the raw link of the video. If this structure is modified, you will have to adapt the code to receive the new structure.
+
+After that, just run `yarn start` or `npm start` to run it.
+
 ## Author
 
 - [@ryan.gwalchmei](https://www.github.com/ryangalvaogp)
