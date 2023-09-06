@@ -1,0 +1,26 @@
+{
+  "name": "downloadvideogcc",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "author": "Ryan Galvão",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node-dev --transpile-only --inspect --trace-warnings --unhandled-rejections=strict --ignore-watch node_modules src/index.ts"
+  },
+  "devDependencies": {
+    "@types/jsdom": "^21.1.2",
+    "@types/node": "^20.5.9",
+    "@types/request-promise": "^4.1.48",
+    "@types/typescript": "^2.0.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.2.2"
+  },
+  "module": "NodeNext",
+  "dependencies": {
+    "@types/express": "^4.17.17",
+    "express": "^4.18.2",
+    "got": "11.0.2",
+    "jsdom": "16.4.0",
+    "request-promise": "^4.2.6"
+  }
+}
